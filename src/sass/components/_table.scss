@@ -1,0 +1,83 @@
+/* 
+
+T A B L E
+
+*/
+
+.table-v-middle{
+	th,td{
+		vertical-align: middle;
+	}
+}
+.table-align-left{
+	th:first-child,.td:first-child{text-align:left;}
+}
+.table-th-td-align-left th:not(:first-child),.table-th-td-align-left td:not(:first-child){text-align:center;}
+.table2-align-left{
+	th:nth-child(2),td:nth-child(2){
+		text-align:left;
+	}
+}
+.table2-align-left{
+	th:not(:nth-child(2)),td:not(:nth-child(2)){
+		text-align:center;
+	}
+}
+.table-center{
+	th,td{
+		text-align:center;
+	}
+}
+.table-th-center th{text-align:center;}
+.table-td-center td{text-align:center;}
+.table-lines{width:100%;}
+.table-lines{
+	th,td{
+		border-bottom: 2px solid #ededed;
+		padding:5px;
+		font-size:13px;
+	}
+	tr:last-child td{border-bottom: none;}
+}
+
+.table-uppercase{
+	th,td{
+		text-transform: uppercase;
+	}
+}
+.table-capitalize{
+	th,td{
+		text-transform: capitalize;
+	}
+}
+.table-lowercase{
+	th,td{
+		text-transform:lowercase;
+	}
+}
+.table-th-uppercase th{text-transform: uppercase;}
+.table-td-uppercase td{text-transform: uppercase;}
+.table-th-capitalize th{text-transform: capitalize;}
+.table-td-capitalize th{text-transform: capitalize;}
+.table-th-lowercase th{text-transform: lowercase;}
+.table-td-lowercase td{text-transform: lowercase;}
+
+.display-table{display:table;}
+.display-table-xs{
+    @include media($xs){
+    	display:table!important;
+    }
+}
+.display-table-sm{
+    @include media($sm...){
+    	display:table !important;
+    }
+}
+.display-table-md{
+    @include media($md...){
+    	display:table !important;
+    }
+}
+
+.display-row{display:table-row;}
+.display-cell{display:table-cell;}
