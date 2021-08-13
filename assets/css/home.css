@@ -1,0 +1,172 @@
+/* line 4, sass/home.scss */
+.skill[data-type="html5"] .progress .progress-bar {
+  -moz-animation: html .8ms ease-in-out forwards;
+  -webkit-animation: html .8ms ease-in-out forwards;
+  animation: html .8s ease-in-out forwards;
+}
+
+/* line 11, sass/home.scss */
+.skill[data-type="css3"] .progress .progress-bar {
+  -moz-animation: css 1s ease-in-out forwards;
+  -webkit-animation: css 1s ease-in-out forwards;
+  animation: css 1s ease-in-out forwards;
+}
+
+/* line 19, sass/home.scss */
+.skill[data-type="js"] .progress .progress-bar {
+  -moz-animation: js 1.3s ease-in-out forwards;
+  -webkit-animation: js 1.3s ease-in-out forwards;
+  animation: js 1.3s ease-in-out forwards;
+}
+
+/* line 26, sass/home.scss */
+.skill[data-type="jquery"] .progress .progress-bar {
+  -moz-animation: jquery 1.3s ease-in-out forwards;
+  -webkit-animation: jquery 1.3s ease-in-out forwards;
+  animation: jquery 1.3s ease-in-out forwards;
+}
+
+/* line 34, sass/home.scss */
+.skill[data-type="vuejs"] .progress .progress-bar {
+  -moz-animation: vuejs 1.5s ease-in-out forwards;
+  -webkit-animation: vuejs 1.5s ease-in-out forwards;
+  animation: vuejs 1.5s ease-in-out forwards;
+}
+
+/* line 42, sass/home.scss */
+.skill[data-type="nodejs"] .progress .progress-bar {
+  -moz-animation: nodejs 1.5s ease-in-out forwards;
+  -webkit-animation: nodejs 1.5s ease-in-out forwards;
+  animation: nodejs 1.5s ease-in-out forwards;
+}
+
+/* line 50, sass/home.scss */
+.skill[data-type="php"] .progress .progress-bar {
+  -moz-animation: php 1.1s ease-in-out forwards;
+  -webkit-animation: php 1.1s ease-in-out forwards;
+  animation: php 1.1s ease-in-out forwards;
+}
+
+/* line 58, sass/home.scss */
+.skill[data-type="laravel"] .progress .progress-bar {
+  -moz-animation: laravel 1s ease-in-out forwards;
+  -webkit-animation: laravel 1s ease-in-out forwards;
+  animation: laravel 1s ease-in-out forwards;
+}
+
+/* line 66, sass/home.scss */
+.skill[data-type="codeigniter"] .progress .progress-bar {
+  -moz-animation: codeigniter 1.6s ease-in-out forwards;
+  -webkit-animation: codeigniter 1.6s ease-in-out forwards;
+  animation: codeigniter 1.6s ease-in-out forwards;
+}
+
+/* line 74, sass/home.scss */
+.skill[data-type="codeigniter"] .progress .progress-bar {
+  -moz-animation: codeigniter 2s ease-in-out forwards;
+  -webkit-animation: codeigniter 2s ease-in-out forwards;
+  animation: codeigniter 2s ease-in-out forwards;
+}
+
+/* line 81, sass/home.scss */
+.skill[data-type="database"] .progress .progress-bar {
+  -moz-animation: database 1.4s ease-in-out forwards;
+  -webkit-animation: database 1.4s ease-in-out forwards;
+  animation: database 1.4s ease-in-out forwards;
+}
+
+/* line 88, sass/home.scss */
+.skill[data-type="design"] .progress .progress-bar {
+  -moz-animation: design .6s ease-in-out forwards;
+  -webkit-animation: designe .6s ease-in-out forwards;
+  animation: design .6s ease-in-out forwards;
+}
+
+@keyframes html {
+  0% {
+    width: 45px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 45px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes js {
+  0% {
+    width: 45px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes jquery {
+  0% {
+    width: 45px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes vuejs {
+  0% {
+    width: 45px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes nodejs {
+  0% {
+    width: 45px;
+  }
+  100% {
+    width: 67%;
+  }
+}
+@keyframes php {
+  0% {
+    width: 45px;
+  }
+  100% {
+    width: 89%;
+  }
+}
+@keyframes laravel {
+  0% {
+    width: 45px;
+  }
+  100% {
+    width: 73%;
+  }
+}
+@keyframes codeigniter {
+  0% {
+    width: 45px;
+  }
+  100% {
+    width: 94%;
+  }
+}
+@keyframes database {
+  0% {
+    width: 45px;
+  }
+  100% {
+    width: 78%;
+  }
+}
+@keyframes design {
+  0% {
+    width: 45px;
+  }
+  100% {
+    width: 70%;
+  }
+}

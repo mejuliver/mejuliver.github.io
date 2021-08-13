@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import 'app';
+/* --------- T A B L E  O F  C O N T E N T S
+
+1. defaults
+2. forms
+3. menu
+4. socials
+*/
+
+// ------------ 1. D E F A U L T S
+
+body{
+	font-family: $default-font;
+	font-size: 14px;
+	background-color:#ededed;
+	letter-spacing: .5px;
+	color:#2c2c2c;
+	overflow-X:hidden;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1,h2,h3,h4,h5,h6,.title{
+	font-family: $header-font;
+}
+a:hover{
+	color:$color-primary;
+}
+input[type="text"],input[type="search"],input[type="password"],input[type="number"],input[type="email"],input[type="date"],textarea,select{
+	border: 1px solid #ccc;
+	padding: 8px 10px;
+	width: 100%;
+	color:#2c2c2c;
+}
+// ------------ 3. COLORS
+.c-primary{
+	color: $color-primary;
+}
+// ------------ 4. B A C K G R O U N D S
+.bg-primary{
+	background:$color-primary;
+	a,p,label,span,i{
+		color:#FFF;
+	}
+	input[type="text"],input[type="search"],input[type="password"],input[type="number"],input[type="email"],input[type="date"],textarea,select{
+		border-color: $color-primary;
+		background:#FFF;
+	}
+}
+section{
+	padding-top:32px;
+	padding-bottom:32px;
+}
+
+// ------------ 5. U I  F O R M S
+.ui{
+	*{
+		font-family: 'Poppins', sans-serif;
+	}
+
+	&.box{
+		padding:24px;
+		box-shadow:0 10px 40px -6px #e0e0e0;
+		background:#fff
+	}
+	&.floating-badge{
+		position:absolute;
+		z-index: 20;
+		&.pull-left{
+			left:-5px;
+			right:initial;
+		}
+		&.pull-right{
+			left:initial;
+			right:-5px;
+		}
+		&.pull-top{
+			top: -5px;
+			bottom:initial;
+		}
+		&.pull-bottom{
+			top: initial;
+			bottom: -5px;
+		}
+	}
+	&.line-input{
+		background: none;
+	    border: 0px;
+	    border-bottom: 1px solid #ccc;
+	    padding: 0px 0px 5px 0px;
+	    outline:none;
+	}
+	&.floating-buttons{
+		position:absolute!important;
+		z-index: 20;
+		display:table;
+		&.pull-left{
+			left:0px;
+			right:initial;
+		}
+		&.pull-right{
+			left:initial;
+			right:0px;
+		}
+		&.pull-top{
+			top: 0px;
+			bottom:initial;
+		}
+		&.pull-bottom{
+			top: initial;
+			bottom: 0px;
+		}
+	}
+	&.ui-error p{
+	    margin: 0px;
+	    font-size: 12px;
+	}
+	position:relative;
+	&.inside-icon{
+		position:relative;
+		span.icon{
+			position:absolute;
+		    color: #000;
+		    font-size: 20px;
+		    left: 10px;
+		    top: 8px;
+		}
+		input{
+			padding-left: 40px;
+		}
+	}
+	&.float-input{
+		margin-top:24px;
+		input,textarea{
+			padding: 10px 15px;
+			border: 1px solid #ededed;
+			border-radius: 7px;
+			font-weight: 400;
+			outline:none;
+			&:focus{
+				border: 1px solid #e0e0e0;
+  				box-shadow: 0 5px 40px -6px #e0e0e0;
+			}
+		}
+		label {
+			font-weight: 400;
+		  position: absolute;
+		  top: 0;
+		  padding: 12px 0 0 13px;
+		  transition: all 200ms;
+		  opacity: 0.5;
+		  pointer-events:none;
+		}
+
+		input:focus + label,
+		input:valid + label,&.enabled label,
+		textarea:focus + label,
+		textarea:valid + label {
+		  font-size: 75%;
+		  transform: translate3d(0, -100%, 0);
+		  opacity: 1;
+		  padding: 7px 0 0 0px;
+		}
+
+	
+
+	}
+	&.button{
+	   	border: none;
+	    background: #ff843c;
+	    color: #FFF;
+	    padding: 10px;
+	    min-width: 150px;
+	    border-radius: 7px;
+	    box-shadow: 0 5px 40px -6px #ff843c;
+
+	    -webkit-transition: all 200ms ease-in-out;
+		-moz-transition: all 200ms ease-in-out;
+		-ms-transition: all 200ms ease-in-out;
+		-o-transition: all 200ms ease-in-out;
+		transition: all 200ms ease-in-out;
+		
+	    &.rounded{
+	    	border-radius: 20px;
+	    }
+	   
+		&.button-icon{
+			min-width:initial!important;
+		}
+		&.button-danger{
+			background: #f56954;
+			box-shadow: 0 5px 10px -6px #f56954;
+			&:hover{
+				background:#f55840;
+				color:#FFF;
+				box-shadow: 0 10px 40px -6px #f55840;
+			}
+		}
+		&.button-success{
+			background-color: #40b649;
+			box-shadow: 0 5px 10px -6px #40b649;
+			&:hover{
+				background:#23a52d;
+				color:#FFF;
+				box-shadow: 0 10px 40px -6px #23a52d;
+			}
+		}
+		&.button-info{
+			background-color: #09f;
+			box-shadow: 0 5px 10px -6px #09f;
+			&:hover{
+				background:#017dd0;
+				color:#FFF;
+				box-shadow: 0 10px 40px -6px #017dd0;
+			}
+		}
+		&:hover{
+			background:#f97528;
+			color:#FFF;
+			    box-shadow: 0 10px 40px -6px #f97528;
+		}
+	}
+}
+// ------------ 2. M E N U
+.menu{
+	list-style:none;
+	li{
+		list-style:none;
+		float:left;
+		a{
+			opacity:.7;
+			&:hover,a.opacity-full{
+				opacity:1!important;
+			}
+		}
+		
+	}
+}
+// ------------ 2. S O C I A L S
+.socials{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	li{
+		list-style:none;
+		float:left;
+		margin-right:15px;
+		margin-bottom:15px;
+		&:last-child{
+			margin-right:0px!important;
+		}
+		a{
+			text-decoration:none;
+			width:30px;
+			height:30px;
+			@include flex('flex-center');
+			background:$color-primary;
+			color:#FFF;
+			opacity:1;
+			&.fb{
+				background:#3b5998;
+			}
+			&.tw{
+				background:#55acee;
+			}
+			&.insta{
+				background:#e95950;
+			}
+			&.linked{
+				background:#007bb5;
+			}
+			&:hover,&:visit,&:link{
+				text-decoration:none;
+			}
+		}
+	}
+}
+.box {
+	border: 1px solid #e0e0e0;
+  	box-shadow: 0 10px 40px -6px #e0e0e0;
+  	background: #fff;
+  	&.border-none{
+  		border: none !important;
+  	}
+}
+
+.progress{
+	height: 8px;
+	border-radius: 0px;
+	box-shadow:none !important;
+	.progress-bar{
+		width:0px;
+		background-color: #0099ff;
+		box-shadow: 0 5px 10px -6px #0099ff;
+	}
+}

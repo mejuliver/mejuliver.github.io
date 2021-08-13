@@ -1,24 +1,245 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>test</title>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" media="all" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" crossorigin="anonymous">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="dist/css/app.css">
-</head>
-<body>
-	<div class="main-container">
-		<section class="text-container text-heading">
-			<h2 class="big-title">Hello, I'm Juliver</h2>
-		</section>
-	</div>
-	<div class="bg1"></div>
-	<div class="bg2"></div>
+	<head>
+		<meta charset="UTF-8">
+		<title>Reviluj | Web Developer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-	<script src="dist/js/app.js" async defer></script>
-</body>
+		<!-- B O O T S T R A P  3 -->
+		<link rel="stylesheet" href="assets/plugins/bootstrap-3.3.7/css/bootstrap.min.css">
+
+
+		<!-- W E B F O N T S -->
+		<link rel="stylesheet" href="assets/plugins/themify-icons/themify-icons.css">
+
+		<link rel="stylesheet" href="assets/plugins/j-components/j-components.min.css">
+		<link rel="stylesheet" href="assets/css/global.css">
+		<link rel="stylesheet" href="assets/css/home.css">
+		<link rel="stylesheet" href="assets/css/theme.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+	</head>
+	<body>
+		<header role="header" id="body-content">
+			<nav class="wrapper" role="navigation">
+				<a href="index.html" class="logo display-table center mb44">
+					<img src="assets/img/logo-white.png" alt="Reviluj" class="display-block">
+				</a>
+				<ul class="menu p00 m00 display-table center" id="top-menu">
+					<li>
+						<a href="#about">
+							About Me
+						</a>
+					</li>
+					<li>
+						<a href="#my-work">
+							Works
+						</a>
+					</li>
+					<li class="clear-xs hide visible-xs"></li>
+					<li>
+						<a href="blog.html">
+							Blog
+						</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div id="particle-canvas"></div>
+		<section id="about" class="bg-white pt64 pb64 person">
+			<div class="container">
+				<div class="row mb64 mt64">
+					<div class="col-md-12">
+						<h1 class="mb44 mt64 font70">Hello,<br>I'm Juliver</h1>
+						<div class="title-line big"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<p class="tagline">
+							Since beginning my journey as a freelance designer nearly 4 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually improving my chops.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="my-work" class="bg-white">
+			<div class="containe-fluid">
+				<div class="row">
+					<div class="col-md-6 p00">
+						<div class="box image-box height-vh flex flex-v-center img-gradient">
+							<img src="assets/img/cover15.jpg" alt="" class="background-image">
+							<div class="content">
+								<h1 class="mb44 font70 text-shadow-2">My <br>Work</h1>
+								<div class="title-line big"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 bg-white height-vh flex-center">
+						<div class="col-md-8 col-md-offset-2 p00">
+							<div class="col-sm-12">
+								<p class="tagline mb32">
+									My work is something I do with lot of honesty, appetite and commitment. Over the past years I had the opportunity to drive and do hands-on work for some amazing brands from all over the world.
+								</p>
+							</div>
+							
+							<div class="col-sm-8">
+								<h4 class="mb24">Skills</h4>
+								<div class="mb16 skill" data-type="html5">
+								<label>HTML 5</label>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="mb16 skill" data-type="css3">
+								<label>CSS 3</label>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="mb16 skill" data-type="js">
+								<label>Vanilla Javascript</label>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="mb16 skill" data-type="jquery">
+								<label>jQuery</label>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="mb16 skill" data-type="vuejs">
+								<label>VueJS</label>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="mb16 skill" data-type="nodejs">
+								<label>NodeJS</label>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="mb16 skill" data-type="php">
+								<label>PHP</label>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="mb16 skill" data-type="laravel">
+								<label>Laravel</label>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="mb16 skill" data-type="codeigniter">
+								<label>Codeigniter</label>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="mb16 skill" data-type="database">
+								<label>Database</label>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="mb16 skill" data-type="design">
+								<label>UI/UX/Design</label>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							</div>
+						</div>
+						
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="bg-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="flex-center flex height-vh">
+							<div>
+								<h1 class="mb44 font70">Contact <br>Me</h1>
+								<div class="title-line big"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="flex-v-center flex height-vh">
+							<form action="" class="box p44 full-width">
+								<div class="col-sm-12">
+									<p class="mb24 tagline">Contact me, lets make your idea <br>to reality</p>
+								</div>
+								<div class="col-sm-12">
+									<div class="ui float-input">
+							        	<input type="text" name="name" value="" required>
+							        	<label>Name</label>
+							      	</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="ui float-input">
+							        	<input type="text" name="email" value="" required>
+							        	<label>Email</label>
+							      	</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="ui float-input">
+							        	<input type="text" name="email" value="" required>
+							        	<label>Email</label>
+							      	</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="ui float-input">
+							        	<textarea name="message" placeholder="Your message"  cols="30" rows="10"></textarea>
+							      	</div>
+								</div>
+								<div class="mt24 col-sm-12 text-center">
+									<button class="ui button rounded">Send</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer role="footer" id="foter" class="bg-dark pt64 pb64">
+			<div class="container">
+				<div class="row mb64 mt64">
+					<div class="col-md-12">
+						<p class="text-center opacity-half c-white">
+						Copyright © 2018 reviluj.com
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="assets/plugins/jquery-3.3.1/jquery.min.js"></script>
+		<script src="assets/plugins/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script src="assets/plugins/j-components/helpers.min.js"></script>
+		<script src="assets/js/particle.js"></script>
+		<script>
+			$(function(){
+				$('#top-menu a').click(function(e){
+					e.preventDefault();
+					var $this = $(this);
+
+					$('html, body').animate({
+				        scrollTop: $($this.attr('href')).offset().top
+				    }, 800);
+				});
+			});
+		</script>
+	</body>
 </html>
+

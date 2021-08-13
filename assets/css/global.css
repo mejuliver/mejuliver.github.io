@@ -1,0 +1,143 @@
+/* line 4, sass/global.scss */
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  background: #FFF;
+  color: #242424;
+  cursor: url(../img/cursor.png), auto;
+  font-size: 12px;
+}
+
+/* line 13, sass/global.scss */
+h1, h2, h3, h4, h5, h6, .menu a {
+  text-transform: uppercase;
+  color: #242424;
+  letter-spacing: 2px;
+}
+
+/* line 18, sass/global.scss */
+#body-content {
+  position: absolute;
+  height: 100vh;
+  z-index: 500;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 27, sass/global.scss */
+.logo {
+  margin: 0px auto 44px auto;
+}
+/* line 29, sass/global.scss */
+.logo img {
+  display: block;
+  max-height: 300px;
+}
+
+/* line 34, sass/global.scss */
+#particle-canvas {
+  height: 100vh;
+}
+
+/* line 38, sass/global.scss */
+.person {
+  background-image: url("../img/person.jpg");
+  background-position: left top;
+  background-size: cover;
+  height: 100vh;
+  background-color: #FFF;
+}
+
+/* line 45, sass/global.scss */
+.flip-forever {
+  -webkit-animation-name: spinner;
+  -webkit-animation-timing-function: 20s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 5s;
+  animation-name: spinner;
+  -webkit-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+  animation-timing-function: 20s;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+@-webkit-keyframes spinner {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+}
+/* all other browsers */
+@keyframes spinner {
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
+}
+/* line 87, sass/global.scss */
+.menu li {
+  list-style: none;
+  float: left;
+}
+/* line 90, sass/global.scss */
+.menu li a {
+  display: block;
+  opacity: .8;
+}
+/* line 93, sass/global.scss */
+.menu li a:hover {
+  opacity: 1;
+}
+
+/* line 98, sass/global.scss */
+nav #top-menu li a {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 5px 20px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  /* line 98, sass/global.scss */
+  nav #top-menu li a {
+    padding: 5px 10px;
+  }
+}
+
+/* line 111, sass/global.scss */
+.title-line {
+  height: 5px;
+  background: #0099ff;
+  width: 40px;
+}
+/* line 115, sass/global.scss */
+.title-line.big {
+  height: 12px;
+  width: 65px;
+}
+
+/* line 121, sass/global.scss */
+.tagline {
+  font-size: 20px;
+  line-height: 35px;
+}
