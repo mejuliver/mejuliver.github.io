@@ -17,7 +17,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-12 mg16 col-md-6">
+						<div class="col-12 col-md-6 mb16">
 							<div class="mb16 skill" data-type="html5">
 								<p class="mb0">HTML 5</p>
 								<div class="progress">
@@ -97,7 +97,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-6 text-right">
+						<div class="col-12 col-md-6 text-md-right text-center mb16">
 							<img src="img/web-maintenance.png" alt="" class="mt64">
 						</div>
 					</div>
