@@ -5,6 +5,7 @@
 	let menu = [
 		{ text : 'Home', id : 'home', active : true, hoverd : false },
 		{ text : 'About', id : 'about', active : false, hoverd : false },
+		{ text : 'Works', id : 'works', active : false, hoverd : false },
 		{ text : 'Skills', id : 'skills', active : false, hoverd : false },
 		{ text : 'Contact', id : 'contact', active : false, hoverd : false }
 	];

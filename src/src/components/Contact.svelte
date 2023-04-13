@@ -53,6 +53,9 @@
 								</div>
 							</form>
 						</div>
+						<div class="col-12 mt44">
+							<h3 class="text-center">"Crafting Digital Experiences, One Pixel at a Time"</h3>
+						</div>
 					</div>
 				</div>
 			</div>
