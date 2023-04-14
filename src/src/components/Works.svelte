@@ -23,7 +23,7 @@
 			img: 'img/rfid-qr-scanner.jpg',
 			url: '',
 			type: 'POS',
-			frameworks: ['Electron','Node','Vue','Lumen','Socketio'],
+			frameworks: ['Electron','Node','Vue','Lumen','Socketio','Raspberry pi'],
 			works: 'RFID and QR scanner, attendance system',
 			active: true
 		},
