@@ -86,7 +86,7 @@
 			img: 'img/vax.jpg',
 			url: '',
 			type: 'Search',
-			frameworks: ['Laravel','Vue','jQuery'],
+			frameworks: ['Laravel','Vue','jQuery','RethinkDB','Node','Socketio'],
 			works: 'search, import/export, statistics',
 			active: true
 		},
