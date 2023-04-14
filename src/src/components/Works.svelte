@@ -68,7 +68,7 @@
 			img: 'img/interoptive.jpg',
 			url: 'interoptive.com',
 			type: 'Form Survey',
-			frameworks: ['Opencart'],
+			frameworks: ['Laravel','jQuery'],
 			works: 'surveys, form, database, globel authentication, workspace, plans',
 			active: true
 		},
@@ -86,7 +86,7 @@
 			img: 'img/vax.jpg',
 			url: '',
 			type: 'Search',
-			frameworks: ['Laravel','Vue','Jquery'],
+			frameworks: ['Laravel','Vue','jQuery'],
 			works: 'search, import/export, statistics',
 			active: true
 		},
@@ -95,7 +95,7 @@
 			img: 'img/yeahshui.jpg',
 			url: 'yeahshui.shop',
 			type: 'Ecommerce',
-			frameworks: ['Opencart'],
+			frameworks: ['Opencart','jQuery'],
 			works: 'theme, backend',
 			active: true
 		},
@@ -104,7 +104,7 @@
 			img: 'img/manifestapparel.jpg',
 			url: 'http://manifestapparel.com',
 			type: 'Ecommerce',
-			frameworks: ['Opencart'],
+			frameworks: ['Opencart','jQuery'],
 			works: 'theme, backend',
 			active: true
 		},
@@ -113,7 +113,7 @@
 			img: 'img/everready.jpg',
 			url: 'http://nextdayhost.com/demo/web/everready/',
 			type: 'Ecommerce',
-			frameworks: ['Opencart'],
+			frameworks: ['Opencart','jQuery'],
 			works: 'theme, backend',
 			active: true
 		},
@@ -122,7 +122,7 @@
 			img: 'img/jovadi.jpg',
 			url: 'https://jovadi.com',
 			type: 'Ecommerce',
-			frameworks: ['Laravel','Opencart','Nuxt','Vue','Stripe'],
+			frameworks: ['Laravel','Opencart','Nuxt','Vue','Stripe','jQuery'],
 			works: 'admin, products, orders, purchases, theme, backend',
 			active: true
 		},
@@ -131,7 +131,7 @@
 			img: 'img/nextdaysite.jpg',
 			url: 'nextdaysite.com',
 			type: 'company website',
-			frameworks: ['Wordpress'],
+			frameworks: ['Wordpress','jQuery','Vue'],
 			works: 'theme',
 			active: true
 		},
@@ -140,7 +140,7 @@
 			img: 'img/articles-blog.jpg',
 			url: 'https://articles.connectnigeria.com/',
 			type: 'blog',
-			frameworks: ['Wordpress'],
+			frameworks: ['Wordpress','jQuery'],
 			works: 'theme',
 			active: true
 		},
@@ -149,7 +149,7 @@
 			img: 'img/cntv-blog.jpg',
 			url: 'https://cntv.connectnigeria.com',
 			type: 'blog',
-			frameworks: ['Wordpress'],
+			frameworks: ['Wordpress','jQuery'],
 			works: 'theme',
 			active: true
 		},
@@ -158,7 +158,7 @@
 			img: 'img/cybastion-blog.jpg',
 			url: 'http://nextdayhost.com/demo/web/cybastion/',
 			type: 'blog',
-			frameworks: ['Wordpress'],
+			frameworks: ['Wordpress','jQuery'],
 			works: 'theme',
 			active: true
 		},
@@ -194,7 +194,7 @@
 			img: 'img/kiosk.jpg',
 			url: 'http://kiosk.iligan.gov.ph',
 			type: 'kiosk',
-			frameworks: ['Html','JQuery'],
+			frameworks: ['Html','jQuery'],
 			works: 'kiosk',
 			active: true
 		}
