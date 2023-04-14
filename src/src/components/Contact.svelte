@@ -53,8 +53,9 @@
 								</div>
 							</form>
 						</div>
-						<div class="col-12 mt44">
+						<div class="col-12 mt44 text-center">
 							<h3 class="text-center">"Crafting Digital Experiences, One Pixel at a Time"</h3>
+							<a href="https://drive.google.com/file/d/1hfn45GUML7e4lZSSvnYLzcO4eFojwRS2/view?usp=share_link" target="__BLANK" class="btn mt16">Download Resume</a>
 						</div>
 					</div>
 				</div>
@@ -74,7 +75,7 @@
 		border-color:#242424;
 		border-radius: 0px;
 	}
-	button.btn{
+	.btn{
 		background: #242424;
 		color:#FFF;
 		border-color: #242424;

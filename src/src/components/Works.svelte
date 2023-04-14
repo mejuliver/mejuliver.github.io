@@ -122,7 +122,7 @@
 			img: 'img/jovadi.jpg',
 			url: 'https://jovadi.com',
 			type: 'Ecommerce',
-			frameworks: ['Laravel','Opencart','Nuxt','Vue','Stripe','jQuery'],
+			frameworks: ['Laravel','Opencart','Nuxt','Vue','Stripe','jQuery','Nuxt'],
 			works: 'admin, products, orders, purchases, theme, backend',
 			active: true
 		},
@@ -176,7 +176,7 @@
 			img: 'img/jf.jpg',
 			url: 'http://cpv2.johnfoord.com',
 			type: 'valuation site',
-			frameworks: ['Laravel','Vue'],
+			frameworks: ['Laravel','Vue','MS Dynamics 365'],
 			works: 'admin, valuations, search, microsoft dynamics',
 			active: true
 		},
@@ -185,7 +185,7 @@
 			img: 'img/hfintech21.jpg',
 			url: 'hfintech21.com',
 			type: 'social',
-			frameworks: ['Laravel','Vue'],
+			frameworks: ['Laravel','Vue','Nuxt'],
 			works: 'admin, post, blog, messaging',
 			active: true
 		},
