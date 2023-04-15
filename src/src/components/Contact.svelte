@@ -55,7 +55,7 @@
 						</div>
 						<div class="col-12 mt44 text-center">
 							<h3 class="text-center">"Crafting Digital Experiences, One Pixel at a Time"</h3>
-							<a href="https://drive.google.com/file/d/1hfn45GUML7e4lZSSvnYLzcO4eFojwRS2/view?usp=share_link" target="__BLANK" class="btn mt16">Download Resume</a>
+							<a href="https://docs.google.com/document/d/1MlpqiYFTgqrOb98MEs3KR8N7DFPJUk51n91WwWY3o5w/edit?usp=share_link" target="__BLANK" class="btn mt16">Download Resume</a>
 						</div>
 					</div>
 				</div>
