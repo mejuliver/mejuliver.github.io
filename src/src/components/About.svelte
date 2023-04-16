@@ -9,7 +9,7 @@
 					<div class="row">
 						<div class="col-12 mb32">
 							<h2>HELLO, I'M JULIVER</h2>
-							<p>FULL STACK WEB ENGINEER</p>
+							<p>FULL STACK WEB DEVELOPER</p>
 						</div>
 					</div>
 					<div class="row">

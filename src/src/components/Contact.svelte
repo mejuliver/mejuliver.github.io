@@ -22,7 +22,7 @@
 								<i class="ti-email mr8"></i>juliver.galleto@gmail.com
 							</p>
 							<p class="mb12">
-								<i class="ti-mobile mr8"></i>639653065060
+								<i class="ti-mobile mr8"></i>639694637058
 							</p>
 						</div>
 						<div class="col-12 col-md-6 mb16">
