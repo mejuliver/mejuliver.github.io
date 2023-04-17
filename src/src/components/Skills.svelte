@@ -55,7 +55,13 @@
 								</div>
 							</div>
 							<div class="mb16 skill" data-type="nodejs">
-								<p class="mb0">NodeJS (ExpressJS,SocketIO,...)</p>
+								<p class="mb0">NodeJS</p>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="mb16 skill" data-type="react">
+								<p class="mb0">React</p>
 								<div class="progress">
 								  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
@@ -174,6 +180,14 @@
 	}
 }
 
+.skill[data-type="react"]{
+	.progress .progress-bar{
+		-moz-animation:  nodejs 1.5s ease-in-out forwards;
+		-webkit-animation:  nodejs 1.5s ease-in-out forwards;
+		animation:  nodejs 1.5s ease-in-out forwards;			
+	}
+}
+
 .skill[data-type="php"]{
 	.progress .progress-bar{
 		-moz-animation:  php 1.1s ease-in-out forwards;
@@ -252,8 +266,12 @@
   100% { width: 90%; }
 }
 @keyframes nodejs {
-  0%   { width: 45px; }
+  0%   { width: 85px; }
   100% { width: 90%; }
+}
+@keyframes react {
+  0%   { width: 45px; }
+  100% { width: 65%; }
 }
 @keyframes php {
   0%   { width: 45px; }
