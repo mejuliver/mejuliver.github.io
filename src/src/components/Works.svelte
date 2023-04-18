@@ -66,7 +66,7 @@
 		{
 			name: 'interoptive',
 			img: 'img/interoptive.jpg',
-			url: 'interoptive.com',
+			url: 'https://interoptive.com',
 			type: 'Form Survey',
 			frameworks: ['Laravel','jQuery'],
 			works: 'surveys, form, database, globel authentication, workspace, plans',
@@ -75,7 +75,7 @@
 		{
 			name: 'aipromptshelp',
 			img: 'img/aipromptshelp.jpg',
-			url: 'aipromptshelp.com',
+			url: 'https://aipromptshelp.com',
 			type: 'Search',
 			frameworks: ['Laravel','Vue','Chatgpt'],
 			works: 'search, prompts, folders, admin, account',
@@ -93,7 +93,7 @@
 		{
 			name: 'yeahshui',
 			img: 'img/yeahshui.jpg',
-			url: 'yeahshui.shop',
+			url: 'https://yeahshui.shop',
 			type: 'Ecommerce',
 			frameworks: ['Opencart','jQuery'],
 			works: 'theme, backend',
@@ -129,7 +129,7 @@
 		{
 			name: 'nextdaysite',
 			img: 'img/nextdaysite.jpg',
-			url: 'nextdaysite.com',
+			url: 'https://nextdaysite.com',
 			type: 'company website',
 			frameworks: ['Wordpress','jQuery','Vue'],
 			works: 'theme',
@@ -183,7 +183,7 @@
 		{
 			name: 'hfintech21',
 			img: 'img/hfintech21.jpg',
-			url: 'hfintech21.com',
+			url: 'http://hfintech21.com',
 			type: 'social',
 			frameworks: ['Laravel','Vue','Nuxt'],
 			works: 'admin, post, blog, messaging',
